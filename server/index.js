@@ -10,8 +10,6 @@ mongoose.connect(process.env.MONGO).then(()=>{
     console.log("Error connecting to MongoDB!!",err);
 });
 
-
-
 const app = express();
 
 app.listen(3000,()=>{
